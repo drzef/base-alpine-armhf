@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/qemu-arm-static /bin/sh cp cp /bin/sh.real /bin/sh
+/usr/bin/qemu-arm-static /bin/sh rm /bin/sh-shim 
+
