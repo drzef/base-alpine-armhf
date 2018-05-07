@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM arm32v6/alpine:3.7
 
 ADD https://github.com/multiarch/qemu-user-static/releases/download/v2.11.1/qemu-arm-static /usr/bin/
 
