@@ -5,6 +5,8 @@ ADD https://github.com/multiarch/qemu-user-static/releases/download/v2.11.1/qemu
 ADD cross-build-start /usr/bin/
 ADD cross-build-end /usr/bin/
 
+RUN chmod +x /usr/bin/cross-build-*
+
 LABEL maintainer="drzef85@gmail.com"
 
 ENTRYPOINT ["/bin/sh"]
